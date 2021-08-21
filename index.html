@@ -2,11 +2,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Serpent VPN</title>
+<style>
+  .svg_badge {
+    background-color: #43B1E3;
+    border-radius: 50%;
+  }
+</style>
 <body lang="en">
 
   <div style="height:0; width:0; overflow:hidden;">
     <svg xmlns="http://www.w3.org/2000/svg">
       <defs>
+        <g fill="#fff">
+          <mask id="ls_b">
+            <path d="M0 39v40h10V39c0-16 12-29 28-29s28 13 28 29v40h10V39C76 18 59 0 38 0S0 18 0 39z"/>
+          </mask>
+          <mask id="ls_d">
+            <path d="M1 49v40h9V49c0-21 17-39 38-39s38 18 38 39v40h9V49C95 22 74 1 48 1S1 22 1 49z"/>
+          </mask>
+          <mask id="ls_f">
+            <path d="M0 27c0 14 12 26 26 26s26-12 26-26S40 1 26 1 0 13 0 27z"/>
+          </mask>
+          <mask id="ls_h">
+            <path d="M1 30c0 16 13 29 29 29s29-13 29-29S46 1 30 1 1 14 1 30zm7 0C8 18 18 8 30 8s22 10 22 22-10 22-22 22S8 42 8 30z"/>
+          </mask>
+          <mask id="lc_b">
+            <path d="M32.03 64.3a32.06 32.06 0 00-29.2 45.28 32.03 32.03 0 0029.2 18.88h128.14a42.75 42.75 0 0042.7-42.78 42.78 42.78 0 00-46.3-42.63A64.34 64.34 0 00122.46 5.8 63.74 63.74 0 0096.1.12C60.71.12 32.03 28.85 32.03 64.3z"/>
+          </mask>
+          <mask id="lc_d">
+            <path d="M125.44 26.8c0 35.45-28.68 64.18-64.07 64.18a63.7 63.7 0 01-26.36-5.69 64.18 64.18 0 004.45 8.2 32.22 32.22 0 01-10.1 9.23 31.86 31.86 0 01-16.04 4.3 31.9 31.9 0 01-13.18-2.84 32.03 32.03 0 0029.2 18.88h128.13a42.75 42.75 0 0042.72-42.78 42.78 42.78 0 00-25.15-38.99 42.65 42.65 0 013.79 17.6 42.77 42.77 0 01-37.38 42.45 63.99 63.99 0 0016.02-42.45A64.16 64.16 0 00119.77.41a63.9 63.9 0 015.67 26.4z"/>
+          </mask>
+        </g>
         <svg id="layer_eye" viewBox="0 0 256 256">
           <g transform="translate(74 102)">
             <circle cx="55" cy="29.8" r="23.7" fill="#F8A91C"/>
@@ -21,59 +47,19 @@
           </g>
         </svg>
         <svg id="layer_secure" viewBox="0 0 256 256">
-          <defs>
-            <path id="ls_a" d="M0 39v40h10V39c0-16 12-29 28-29s28 13 28 29v40h10V39C76 18 59 0 38 0S0 18 0 39z"/>
-            <mask id="ls_b" fill="#fff">
-              <use href="#ls_a"/>
-            </mask>
-            <path id="ls_c" d="M1 49v40h9V49c0-21 17-39 38-39s38 18 38 39v40h9V49C95 22 74 1 48 1S1 22 1 49z"/>
-            <mask id="ls_d" fill="#fff">
-              <use href="#ls_c"/>
-            </mask>
-            <path id="ls_e" d="M0 27c0 14 12 26 26 26s26-12 26-26S40 1 26 1 0 13 0 27z"/>
-            <mask id="ls_f" fill="#fff">
-              <use href="#ls_e"/>
-            </mask>
-            <path id="ls_g" d="M1 30c0 16 13 29 29 29s29-13 29-29S46 1 30 1 1 14 1 30zm7 0C8 18 18 8 30 8s22 10 22 22-10 22-22 22S8 42 8 30z"/>
-            <mask id="ls_h" fill="#fff">
-              <use href="#ls_g"/>
-            </mask>
-          </defs>
+          <polygon fill="#D1D1D1" transform="translate(91 44)" points="-7 86 83 86 83 -7 -7 -7" mask="url(#ls_b)"/>
+          <polygon fill="#EFEFEF" transform="translate(81 34)" points="-7 96 103 96 103 -7 -7 -7" mask="url(#ls_d)"/>
           <g transform="translate(66 33)">
-            <g transform="translate(25 11)">
-              <polygon fill="#D1D1D1" points="-7 86 83 86 83 -7 -7 -7" mask="url(#ls_b)"/>
-            </g>
-            <g transform="translate(15 1)">
-              <polygon fill="#EFEFEF" points="-7 96 103 96 103 -7 -7 -7" mask="url(#ls_d)"/>
-            </g>
             <polygon fill="#EEB845" points="0 177 126 177 126 86 0 86"/>
             <polygon fill="#FFC64A" points="30 177 96 177 96 86 30 86"/>
-            <g transform="translate(37 106)">
-              <polygon fill="#FFF" points="-7 61 59 61 59 -7 -7 -7" mask="url(#ls_f)"/>
-            </g>
+            <polygon fill="#FFF" transform="translate(37 106)" points="-7 61 59 61 59 -7 -7 -7" mask="url(#ls_f)"/>
             <polygon fill="#404040" points="60 137 55 132 52 134 60 142 74 128 71 126"/>
-            <g transform="translate(33 103)">
-              <polygon fill="#EEB845" points="-7 67 66 67 66 -7 -7 -7" mask="url(#ls_h)"/>
-            </g>
           </g>
+          <polygon fill="#EEB845" transform="translate(99 136)" points="-7 67 66 67 66 -7 -7 -7" mask="url(#ls_h)"/>
         </svg>
         <svg id="layer_cloud" viewBox="0 0 256 256">
-          <defs>
-            <path id="lc_a" d="M32.03 64.3a32.06 32.06 0 00-29.2 45.28 32.03 32.03 0 0029.2 18.88h128.14a42.75 42.75 0 0042.7-42.78 42.78 42.78 0 00-46.3-42.63A64.34 64.34 0 00122.46 5.8 63.74 63.74 0 0096.1.12C60.71.12 32.03 28.85 32.03 64.3z"/>
-            <mask id="lc_b" fill="#fff">
-              <use href="#lc_a"/>
-            </mask>
-            <path id="lc_c" d="M125.44 26.8c0 35.45-28.68 64.18-64.07 64.18a63.7 63.7 0 01-26.36-5.69 64.18 64.18 0 004.45 8.2 32.22 32.22 0 01-10.1 9.23 31.86 31.86 0 01-16.04 4.3 31.9 31.9 0 01-13.18-2.84 32.03 32.03 0 0029.2 18.88h128.13a42.75 42.75 0 0042.72-42.78 42.78 42.78 0 00-25.15-38.99 42.65 42.65 0 013.79 17.6 42.77 42.77 0 01-37.38 42.45 63.99 63.99 0 0016.02-42.45A64.16 64.16 0 00119.77.41a63.9 63.9 0 015.67 26.4z"/>
-            <mask id="lc_d" fill="#fff">
-              <use href="#lc_c"/>
-            </mask>
-          </defs>
-          <g transform="translate(27 52.42)">
-            <polygon fill="#FFF" points="-2.69 131.16 205.57 131.16 205.57 -2.58 -2.69 -2.58" mask="url(#lc_b)"/>
-          </g>
-          <g transform="translate(29.7 57.82)">
-            <polygon fill="#F0F0F0" points="-2.55 125.76 202.88 125.76 202.88 -2.29 -2.55 -2.29" mask="url(#lc_d)"/>
-          </g>
+          <polygon fill="#FFF" transform="translate(27 52.42)" points="-2.69 131.16 205.57 131.16 205.57 -2.58 -2.69 -2.58" mask="url(#lc_b)"/>
+          <polygon fill="#F0F0F0" transform="translate(29.7 57.82)" points="-2.55 125.76 202.88 125.76 202.88 -2.29 -2.55 -2.29" mask="url(#lc_d)"/>
           <use href="#layer_eye"/>
         </svg>
         <svg id="layer_advantages" viewBox="0 0 256 256">
@@ -191,7 +177,9 @@
     <article>
       <picture>
         <svg class="svg_badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-          <use href="#layer_advantages"/>
+          <g transform="translate(13 28)">
+            <use href="#layer_advantages"/>
+          </g>
         </svg>
       </picture>
       <header>
