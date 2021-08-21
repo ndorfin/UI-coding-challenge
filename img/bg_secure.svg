@@ -1,37 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <defs>
-    <path id="a" d="M0 39v40h10V39c0-16 12-29 28-29s28 13 28 29v40h10V39C76 18 59 0 38 0S0 18 0 39z"/>
-    <path id="c" d="M1 49v40h9V49c0-21 17-39 38-39s38 18 38 39v40h9V49C95 22 74 1 48 1S1 22 1 49z"/>
-    <path id="e" d="M0 27c0 14 12 26 26 26s26-12 26-26S40 1 26 1 0 13 0 27z"/>
-    <path id="g" d="M1 30c0 16 13 29 29 29s29-13 29-29S46 1 30 1 1 14 1 30zm7 0C8 18 18 8 30 8s22 10 22 22-10 22-22 22S8 42 8 30z"/>
+    <path id="ls_a" d="M0 39v40h10V39c0-16 12-29 28-29s28 13 28 29v40h10V39C76 18 59 0 38 0S0 18 0 39z"/>
+    <mask id="ls_b" fill="#fff">
+      <use href="#ls_a"/>
+    </mask>
+    <path id="ls_c" d="M1 49v40h9V49c0-21 17-39 38-39s38 18 38 39v40h9V49C95 22 74 1 48 1S1 22 1 49z"/>
+    <mask id="ls_d" fill="#fff">
+      <use href="#ls_c"/>
+    </mask>
+    <path id="ls_e" d="M0 27c0 14 12 26 26 26s26-12 26-26S40 1 26 1 0 13 0 27z"/>
+    <mask id="ls_f" fill="#fff">
+      <use href="#ls_e"/>
+    </mask>
+    <path id="ls_g" d="M1 30c0 16 13 29 29 29s29-13 29-29S46 1 30 1 1 14 1 30zm7 0C8 18 18 8 30 8s22 10 22 22-10 22-22 22S8 42 8 30z"/>
+    <mask id="ls_h" fill="#fff">
+      <use href="#ls_g"/>
+    </mask>
   </defs>
-  <g fill="none" fill-rule="evenodd" transform="translate(66 33)">
+  <g transform="translate(66 33)">
     <g transform="translate(25 11)">
-      <mask id="b" fill="#fff">
-        <use href="#a"/>
-      </mask>
-      <polygon fill="#D1D1D1" points="-7 86 83 86 83 -7 -7 -7" mask="url(#b)"/>
+      <polygon fill="#D1D1D1" points="-7 86 83 86 83 -7 -7 -7" mask="url(#ls_b)"/>
     </g>
     <g transform="translate(15 1)">
-      <mask id="d" fill="#fff">
-        <use href="#c"/>
-      </mask>
-      <polygon fill="#EFEFEF" points="-7 96 103 96 103 -7 -7 -7" mask="url(#d)"/>
+      <polygon fill="#EFEFEF" points="-7 96 103 96 103 -7 -7 -7" mask="url(#ls_d)"/>
     </g>
     <polygon fill="#EEB845" points="0 177 126 177 126 86 0 86"/>
     <polygon fill="#FFC64A" points="30 177 96 177 96 86 30 86"/>
     <g transform="translate(37 106)">
-      <mask id="f" fill="#fff">
-        <use href="#e"/>
-      </mask>
-      <polygon fill="#FFF" points="-7 61 59 61 59 -7 -7 -7" mask="url(#f)"/>
+      <polygon fill="#FFF" points="-7 61 59 61 59 -7 -7 -7" mask="url(#ls_f)"/>
     </g>
     <polygon fill="#404040" points="60 137 55 132 52 134 60 142 74 128 71 126"/>
     <g transform="translate(33 103)">
-      <mask id="h" fill="#fff">
-        <use href="#g"/>
-      </mask>
-      <polygon fill="#EEB845" points="-7 67 66 67 66 -7 -7 -7" mask="url(#h)"/>
+      <polygon fill="#EEB845" points="-7 67 66 67 66 -7 -7 -7" mask="url(#ls_h)"/>
     </g>
   </g>
 </svg>
