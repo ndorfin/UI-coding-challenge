@@ -1,0 +1,24 @@
+body > header {
+  background-color: var(--colour_bg_header);
+  text-align: center;
+  padding-top: 3.25rem;
+  padding-bottom: 2.5rem;
+}
+
+body > header > h1 > a {
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: var(--shape-radius);
+  transition-property: background-color;
+  transition-duration: var(--duration-default);
+  transition-timing-function: ease-in;
+}
+
+body > header > h1 > a:hover {
+  background-color: var(--colour_bg_nav_item_hover);
+}
+
+body > header > h1 > a > svg {
+  width: 296px;
+  height: 45px;
+}

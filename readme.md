@@ -1,16 +1,21 @@
-Summary
----
-This coding challenge is designed to determine your proficiency in responsive web development.
+# UI coding challenge
 
-Instructions
----
-Replicate the static content and design of the responsive web page design for the two breakpoints provided in `designs/serpent_vpn_wide.png` and `designs/serpent_vpn_narrow.png`. Assets are provided in the `assets` folder. Colors and font styles are provided in `designs/serpent_vpn_styles_guide.png`.
+This repo was part of challenge initiated by [Piero Pretto](https://github.com/pieroapretto) at [onja.org](https://onja.org).
 
-Acceptance Criteria
----
-* Site should be responsive.
-* Provide at least one stylesheet file.
-* Site should be written using semantic HTML5.
-* Links and buttons should hover effects.
-* Do not use any UI frameworks or libraries to assist with styling.
-* BONUS: Achieve a 100 accessibility score on Lighthouse
+Read more about [the objectives for this challenge](./objectives.md).
+
+## Install
+
+You'll ideally need something to run a web server on the root of this repo.
+
+I'd suggest [Python 2.7+](https://www.python.org/downloads/)
+
+### Dev environment
+
+Once you have Python 2.x installed, run the following:
+
+```
+python -m SimpleHTTPServer
+```
+
+Then visit [localhost:8000](https://localhost:8000)

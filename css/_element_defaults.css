@@ -1,0 +1,39 @@
+html {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 100%;
+  color: var(--colour_font_default);
+  background-color: var(--colour_bg_default);
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav ul,
+nav ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+svg,
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}

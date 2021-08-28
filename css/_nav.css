@@ -1,0 +1,28 @@
+body > nav {
+  background-color: var(--colour_bg_header);
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+body > nav ul {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+body > nav li + li {
+  margin-left: 1rem;
+}
+
+body > nav a {
+  display: inline-block;
+  padding: 0.5rem; /* Increase the clickable area of each nav item */
+  transition-property: background-color;
+  transition-duration: var(--duration-default);
+  transition-timing-function: ease-in;
+  border-radius: var(--shape-radius);
+}
+
+body > nav a:hover {
+  background-color: var(--colour_bg_nav_item_hover);
+}

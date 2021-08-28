@@ -1,0 +1,18 @@
+@import "./_element_defaults.css";
+@import "./_header.css";
+@import "./_nav.css";
+@import "./_footer.css";
+@import "./_badges.css";
+@import "./_utilities.css";
+
+html {
+  --colour_bg_default: #fff;
+  --colour_bg_header: #f5f6f8;
+  --colour_bg_footer: #3a3d40;
+  --colour_bg_nav_item_hover: rgba(0,0,0,.1);
+  --colour_font_default: #666;
+  --colour_font_footer: #ddd;
+  --colour_heading_default: #333;
+  --duration-default: 0.2s;
+  --shape-radius: 0.25rem;
+}
