@@ -15,7 +15,7 @@ body > nav ul {
 body > nav a {
   display: inline-block;
   font-weight: 500;
-  padding: 0.5rem; /* Increase the clickable area of each nav item */
+  padding: 0.5rem 0.75rem; /* Increase the clickable area of each nav item */
   transition-property: background-color;
   transition-duration: var(--duration-default);
   transition-timing-function: ease-in;
@@ -26,7 +26,7 @@ body > nav a:hover {
   background-color: var(--colour_bg_nav_item_hover);
 }
 
-@media (min-width: 475px) {
+@media (min-width: 525px) {
   body > nav ul {
     flex-direction: row;
   }

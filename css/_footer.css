@@ -21,7 +21,7 @@ body > footer span {
   font-weight: 700;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
-  padding: 0.5rem;
+  padding: 0.5rem 0.75rem;
 }
 
 body > footer a {
@@ -46,7 +46,7 @@ body > footer ul ul {
   align-items: center;
 }
 
-@media (min-width: 475px) {
+@media (min-width: 525px) {
   body > footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
