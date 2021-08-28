@@ -1,0 +1,25 @@
+.list_checkmarks {
+  padding: 0;
+  list-style: none;
+}
+
+.list_checkmarks li + li {
+  margin-top: 0.5rem;
+}
+
+.list_checkmarks li::before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 17px;
+  background-image: url('../img/icon_checkmark.svg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
+}
+
+.list_checkmarks li,
+.list_checkmarks li::before {
+  vertical-align: text-top;
+}

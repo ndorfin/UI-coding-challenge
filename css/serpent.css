@@ -6,6 +6,7 @@
 @import "./_icons_social.css";
 @import "./_utilities.css";
 @import "./_animations.css";
+@import "./_list_checkmarks.css";
 
 html {
   --colour_bg_default: #fff;
