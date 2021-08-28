@@ -1,0 +1,5 @@
+@media (prefers-reduced-motion) {
+  html {
+    --duration-default: 0 !important;
+  }
+}

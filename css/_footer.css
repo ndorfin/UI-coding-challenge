@@ -1,6 +1,8 @@
 body > footer {
   background-color: var(--colour_bg_footer);
   color: var(--colour_font_footer);
+  text-align: center;
+  padding: 1rem;
 }
 
 body > footer > nav > h2 {
@@ -12,4 +14,46 @@ body > footer > nav > h2 {
   position: absolute;
   white-space: nowrap; 
   width: 1px;
+}
+
+body > footer a,
+body > footer span {
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+
+body > footer a {
+  display: inline-block;
+  transition-property: background-color;
+  transition-duration: var(--duration-default);
+  transition-timing-function: ease-in;
+  border-radius: var(--shape-radius);
+}
+
+body > footer a:hover {
+  background-color: var(--colour_bg_nav_item_inverse_hover);
+}
+
+body > footer ul span {
+  display: block;
+}
+
+body > footer ul ul {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (min-width: 475px) {
+  body > footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  body > footer a,
+  body > footer span {
+    font-size: 1.125rem;
+  }
 }

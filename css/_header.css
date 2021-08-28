@@ -1,8 +1,10 @@
 body > header {
   background-color: var(--colour_bg_header);
   text-align: center;
-  padding-top: 3.25rem;
-  padding-bottom: 2.5rem;
+  padding-top: 1.75rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 body > header > h1 > a {
@@ -21,4 +23,11 @@ body > header > h1 > a:hover {
 body > header > h1 > a > svg {
   width: 296px;
   height: 45px;
+}
+
+@media (min-width: 475px) {
+  body > header {
+    padding-top: 3.25rem;
+    padding-bottom: 2.5rem;
+  }
 }

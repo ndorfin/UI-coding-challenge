@@ -6,16 +6,15 @@ body > nav {
 
 body > nav ul {
   display: inline-flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
-body > nav li + li {
-  margin-left: 1rem;
-}
+
 
 body > nav a {
   display: inline-block;
+  font-weight: 500;
   padding: 0.5rem; /* Increase the clickable area of each nav item */
   transition-property: background-color;
   transition-duration: var(--duration-default);
@@ -25,4 +24,18 @@ body > nav a {
 
 body > nav a:hover {
   background-color: var(--colour_bg_nav_item_hover);
+}
+
+@media (min-width: 475px) {
+  body > nav ul {
+    flex-direction: row;
+  }
+
+  body > nav li + li {
+    margin-left: 1rem;
+  }
+
+  body > nav a {
+    font-size: 1.125rem;
+  }
 }
