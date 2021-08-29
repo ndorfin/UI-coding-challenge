@@ -2,18 +2,8 @@ body > footer {
   background-color: var(--colour_bg_footer);
   color: var(--colour_font_footer);
   text-align: center;
+  margin-top: 3rem;
   padding: 1rem;
-}
-
-body > footer > nav > h2 {
-  /* Hide this element in a visual sense, but retain it for screen readers */
-  clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
-  width: 1px;
 }
 
 body > footer a,

@@ -21,6 +21,7 @@ html {
   --colour_font_default: #666;
   --colour_font_footer: #ddd;
   --colour_heading_default: #333;
+  --colour_line_separator: #d8d8d8;
   --duration-default: 0.2s;
   --duration-fast: 0.1s;
   --shape-radius: 0.25rem;

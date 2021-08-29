@@ -1,0 +1,11 @@
+.screen_reader_only,
+body > footer > nav > h2 {
+  /* Hide this element in a visual sense, but retain it for screen readers */
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
