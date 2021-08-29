@@ -1,0 +1,52 @@
+.list_features {
+  text-align: left;
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list_features dt {
+  font-weight: 700;
+  color: var(--colour_heading_default);
+  margin-bottom: 0.125rem;
+}
+
+.list_features dd {
+  margin-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+[data-feature] {
+  padding-left: 5.25rem;
+  min-height: 3.75rem;
+  background-image: var(--url_icon);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 3.75rem auto;
+}
+
+[data-feature="cloud"]   {--url_icon: url('../img/icon_infrastructure.svg');}
+[data-feature="data"]    {--url_icon: url('../img/icon_vulnerabilities.svg');}
+[data-feature="browser"] {--url_icon: url('../img/icon_third_party.svg');}
+
+@media (min-width: 720px) {
+  .list_features {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 56.25rem;
+    gap: 3rem;
+  }
+
+  .list_features dd {
+    margin-bottom: 0;
+  }
+
+  [data-feature] {
+    padding-top: 5.25rem;
+    padding-left: 0;
+    flex-grow: 1;
+    flex-basis: 33%;
+    min-width: 218px;
+  }
+}
