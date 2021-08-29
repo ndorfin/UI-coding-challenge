@@ -8,7 +8,9 @@ body > header > nav ul {
   align-items: center;
 }
 
-
+body > header > nav li:last-child {
+  display: none;
+}
 
 body > header > nav a {
   display: inline-block;
@@ -37,6 +39,12 @@ body > header > nav a:hover {
 
 @media (min-width: 800px) {
   body > header > nav {
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 960px) {
+  body > header > nav {
     flex-grow: 1;
     padding-left: 2rem;
     box-sizing: border-box;
@@ -49,6 +57,7 @@ body > header > nav a:hover {
   }
 
   body > header > nav li:last-child {
+    display: block;
     flex-grow: 1;
     text-align: right;
     padding-right: 1rem;

@@ -2,12 +2,13 @@ html {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 100%;
   line-height: 1.25;
-  color: var(--colour_font_default);
-  background-color: var(--colour_bg_default);
+  background-color: var(--colour_bg_footer);
 }
 
 body {
   margin: 0;
+  color: var(--colour_font_default);
+  background-color: var(--colour_bg_default);
 }
 
 main {
