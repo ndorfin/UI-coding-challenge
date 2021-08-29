@@ -31,7 +31,7 @@
 [data-feature="data"]    {--url_icon: url('../img/icon_vulnerabilities.svg');}
 [data-feature="browser"] {--url_icon: url('../img/icon_third_party.svg');}
 
-@media (min-width: 720px) {
+@media (min-width: 800px) {
   .list_features {
     display: inline-flex;
     flex-direction: row;

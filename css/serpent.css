@@ -11,8 +11,11 @@
 @import "./_list_condensed.css";
 @import "./_headings.css";
 @import "./_paragraph_intro.css";
+@import "./_button.css";
 
 html {
+  --colour_accent_primary: #F8A91C; 
+  --colour_accent_secondary: #43B1E3; 
   --colour_bg_default: #fff;
   --colour_bg_header: #f5f6f8;
   --colour_bg_footer: #3a3d40;

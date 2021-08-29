@@ -1,4 +1,4 @@
 .svg_badge {
-  background-color: #43B1E3;
+  background-color: var(--colour_accent_secondary);
   border-radius: 50%;
 }

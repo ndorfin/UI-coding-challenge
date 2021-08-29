@@ -5,19 +5,30 @@ body > header {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  position: relative;
+}
+
+body > header::after {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50vw;
+  background-color: inherit;
+  z-index: -1;
+}
+
+body > header > h1 {
+  font-size: 1rem;
 }
 
 body > header > h1 > a {
   display: inline-block;
   padding: 0.5rem;
-  border-radius: var(--shape-radius);
-  transition-property: background-color;
-  transition-duration: var(--duration-default);
-  transition-timing-function: ease-in;
-}
-
-body > header > h1 > a:hover {
-  background-color: var(--colour_bg_nav_item_hover);
 }
 
 #logo_eye {
@@ -41,5 +52,24 @@ body > header > h1 > a > svg {
   body > header {
     padding-top: 3.25rem;
     padding-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  body > header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body > header > h1 > a > svg {
+    width: 198px;
+    height: 29px;
   }
 }

@@ -16,10 +16,6 @@ main {
   text-align: center;
   display: flex;
   flex-direction: column;
-}
-
-main > header,
-article {
   max-width: 56.25rem;
   margin-left: auto;
   margin-right: auto;
@@ -28,6 +24,36 @@ article {
 main > picture {
   padding-top: 2.5rem;
   order: -1;
+}
+
+@media (min-width: 800px) {
+  main {
+    text-align: left;
+    display: block;
+  }
+
+  picture {
+    float: right;
+    margin-left: 6rem;
+  }
+
+  main > header {
+    float: left;
+    width: calc(100% - (256px + 96px));
+  }
+
+  main > header > h2 {
+    margin-top: 0;
+  }
+
+  main > picture {
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+
+  main > picture + article {
+    clear: both;
+  }
 }
 
 article + article::before {
