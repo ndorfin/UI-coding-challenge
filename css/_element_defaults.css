@@ -14,6 +14,8 @@ main {
   padding: 1rem;
   line-height: 1.5;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 main > header,
@@ -25,6 +27,7 @@ article {
 
 main > picture {
   padding-top: 2.5rem;
+  order: -1;
 }
 
 article + article::before {
