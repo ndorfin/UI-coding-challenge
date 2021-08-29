@@ -20,6 +20,18 @@ body > header > h1 > a:hover {
   background-color: var(--colour_bg_nav_item_hover);
 }
 
+#logo_eye {
+  transition-property: transform;
+  transition-duration: var(--duration-fast);
+  transition-timing-function: ease-in;
+  transform-origin: 50% 50%;
+  transform: translate(-73px, -2px) scale(4.2, 4.2);
+}
+
+body > header > h1 > a:hover #logo_eye {
+  transform: translate(-73px, -2px) scale(4.2, 0);
+}
+
 body > header > h1 > a > svg {
   width: 296px;
   height: 45px;

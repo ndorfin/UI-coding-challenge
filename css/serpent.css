@@ -18,5 +18,6 @@ html {
   --colour_font_footer: #ddd;
   --colour_heading_default: #333;
   --duration-default: 0.2s;
+  --duration-fast: 0.1s;
   --shape-radius: 0.25rem;
 }
