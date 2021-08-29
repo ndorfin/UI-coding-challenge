@@ -9,6 +9,8 @@
 @import "./_list_checkmarks.css";
 @import "./_list_features.css";
 @import "./_list_condensed.css";
+@import "./_headings.css";
+@import "./_paragraph_intro.css";
 
 html {
   --colour_bg_default: #fff;
