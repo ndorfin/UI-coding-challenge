@@ -24,40 +24,8 @@ main {
 }
 
 main > figure {
-  margin-left: 0;
-  margin-right: 0;
   padding-top: 2.5rem;
   order: -1;
-}
-
-@media (min-width: 800px) {
-  main {
-    text-align: left;
-    display: block;
-  }
-
-  figure {
-    float: right;
-    margin-left: 6rem;
-  }
-
-  main > header {
-    float: left;
-    width: calc(100% - (256px + 96px));
-  }
-
-  main > header > h2 {
-    margin-top: 0;
-  }
-
-  main > figure {
-    margin-top: 0.5rem;
-    padding-top: 0;
-  }
-
-  main > figure + article {
-    clear: both;
-  }
 }
 
 article + article::before {
@@ -99,6 +67,8 @@ figure {
   display: inline-block;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 svg,
@@ -115,5 +85,35 @@ abbr[title] {
   main {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 800px) {
+  main {
+    text-align: left;
+    display: block;
+  }
+
+  figure {
+    float: right;
+    margin-left: 6rem;
+  }
+
+  main > header {
+    float: left;
+    width: calc(100% - (256px + 96px));
+  }
+
+  main > header > h2 {
+    margin-top: 0;
+  }
+
+  main > figure {
+    margin-top: 0.5rem;
+    padding-top: 0;
+  }
+
+  main > figure + article {
+    clear: both;
   }
 }

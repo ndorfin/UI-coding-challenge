@@ -12,6 +12,7 @@
 @import "./_headings.css";
 @import "./_paragraph_intro.css";
 @import "./_button.css";
+@import "./_scrollbars.css";
 
 html {
   --colour_accent_primary: #F8A91C; 
