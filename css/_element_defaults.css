@@ -9,6 +9,7 @@ body {
   margin: 0;
   color: var(--colour_font_default);
   background-color: var(--colour_bg_default);
+  overflow-y: hidden;
 }
 
 main {

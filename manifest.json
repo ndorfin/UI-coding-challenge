@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "short_name": "Serpent VPN",
+  "name": "Serpent VPN",
+  "description": "Serpent VPN is the next evolution of personal VPNs, and instead allows users to utilize their own server, and connect to if from our state-of-the-art applications.",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/touch-icon.svg",
+      "sizes": "any",
+      "type": "image/xml+svg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/touch-icon-1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/touch-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/touch-icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#3a3d40",
+  "theme_color": "#F8A91C",
+  "start_url": "./?utm_source=web_app_manifest",
+  "display": "standalone",
+  "orientation": "any"
+}
