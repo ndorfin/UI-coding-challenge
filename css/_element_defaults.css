@@ -23,7 +23,9 @@ main {
   margin-right: auto;
 }
 
-main > picture {
+main > figure {
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 2.5rem;
   order: -1;
 }
@@ -34,7 +36,7 @@ main > picture {
     display: block;
   }
 
-  picture {
+  figure {
     float: right;
     margin-left: 6rem;
   }
@@ -48,12 +50,12 @@ main > picture {
     margin-top: 0;
   }
 
-  main > picture {
+  main > figure {
     margin-top: 0.5rem;
     padding-top: 0;
   }
 
-  main > picture + article {
+  main > figure + article {
     clear: both;
   }
 }
@@ -93,7 +95,7 @@ nav a {
   text-decoration: none;
 }
 
-picture {
+figure {
   display: inline-block;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
